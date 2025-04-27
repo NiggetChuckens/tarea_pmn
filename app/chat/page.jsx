@@ -3,6 +3,10 @@ import SentimentAnalysisPanel from "../components/moodchat";
 
 export default function Home(){
   return (
-      <SentimentAnalysisPanel />
+    <html lang="en">
+      <body>
+        <SentimentAnalysisPanel />    
+      </body>
+    </html>
   )
 }

@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
   return (
-    <AuthForm />
+    <html lang="en">
+        <body>
+          <AuthForm />
+        </body>
+    </html>
   )
 }
