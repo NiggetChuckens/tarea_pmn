@@ -1,12 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SentimentAnalysisPanel from "../components/moodchat";
+import SentimentAnalysisPanel from "./chat";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-export default function Home(){
+// Removed the <html> tag to avoid nesting issues
+export default function Home() {
   return (
-    <html lang="en">
-      <body>
-        <SentimentAnalysisPanel />    
-      </body>
-    </html>
-  )
+    <div>
+      <Header />
+      <SentimentAnalysisPanel />
+      <Footer />
+    </div>
+  );
 }
